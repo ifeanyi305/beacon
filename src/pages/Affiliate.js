@@ -68,11 +68,11 @@ export default function Affiliate() {
           </h1>
           <h4>
             It's hard to build a casino, but you can start from managing your
-            own table on <span>BETARENA.GG</span>
+            own table on <span>OddsHaven.GG</span>
             <br />
             BC.GAME is not just games, its a platform to realize the potential
             of your hidden dreams. Join
-            <span>BETARENA.GG</span> and set sail on a new chapter in your
+            <span>OddsHaven.GG</span> and set sail on a new chapter in your
             wealth journey immediately!
           </h4>
           <div className="affiliate-flex2-1-logo">
@@ -90,7 +90,7 @@ export default function Affiliate() {
             own domain, design style and theme. If you are capable to invite
             players and their wager amount reaches a billion dollars and above,
             you will be able to get your own customized casino! <br />
-            Contact <span>Affiliate@betarena.gg</span> for more details
+            Contact <span>Affiliate@OddsHaven.gg</span> for more details
           </h4>
           <div className="affiliate-flex2-2-logo">
             <img src={affiliateFlex2} alt="affiliateFlex2" />

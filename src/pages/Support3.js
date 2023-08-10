@@ -40,7 +40,7 @@ export default function Support3() {
         If your deposit wasn’t credited to your
       account, please confirm if you sent it to
       the correct deposit address. You can do so 
-      by going to your <span class="BETARENA">BETARENA</span> Deposit 
+      by going to your <span class="BETARENA">OddsHaven</span> Deposit 
       page and checking if the address matches.
     </p>
     <p className='pre_text_1'>

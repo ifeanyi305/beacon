@@ -54,7 +54,7 @@ export default function Support2() {
       In the case of unconfirmed transactions, 
       please understand that we have no 
       control over the speed of the network. 
-      Unfortunately, <span class="BETARENA">BETARENA</span> does not control 
+      Unfortunately, <span class="BETARENA">OddsHaven</span> does not control 
       or influence the network speed in 
       any way, therefore we cannot speed up 
       or make the transaction confirm faster.

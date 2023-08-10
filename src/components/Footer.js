@@ -16,9 +16,9 @@ export default function History() {
           <div className="footer-contacts-text">
             <div className="footer-text1">
               <h4>
-                BETARENA is a community-based crypto casino that offers their
+              OddsHaven is a community-based crypto casino that offers their
                 players the best online casino experience possible! At
-                BETARENA.GG, we are convinced that blockchain will change the
+                OddsHaven.GG, we are convinced that blockchain will change the
                 online crypto gambling industry forever! Jump in and check it
                 out for yourself! Have fun and earn crypto
               </h4>
@@ -42,7 +42,7 @@ export default function History() {
           <div className="footer-help">
             <h4>CONTACT US</h4>
             <h4>
-              Help: <NavLink to="/">help.BETARENA.GG</NavLink>
+              Help: <NavLink to="/">help.OddsHaven.GG</NavLink>
             </h4>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function History() {
           </div>
           <div className="footer-last-row2">
             <div className="copyright">
-              <h4>©2022 BETARENA.GG ALL RIGHTS RESERVED</h4>
+              <h4>©2022 OddsHaven.GG ALL RIGHTS RESERVED</h4>
             </div>
             <div className="footer-top">
               <div className="footer-top-arrow">
@@ -74,9 +74,9 @@ export default function History() {
           <div className="mobile-footer-logo">
             <img src={footer1} alt="footer1" />
             <h3>
-              BETARENA is a community-based crypto casino that offers their
+              OddsHaven is a community-based crypto casino that offers their
               players the best online casino experience possible! At
-              BETARENA.GG, we are convinced that blockchain will change the
+              OddsHaven.GG, we are convinced that blockchain will change the
               online crypto gambling industry forever! Jump in and check it out
               for yourself! Have fun and earn crypto.
             </h3>
@@ -133,7 +133,7 @@ export default function History() {
           <div className="mobile-footer-help">
             <h4>CONTACT US</h4>
             <h4>
-              Help: <NavLink to="/">help.BETARENA.GG</NavLink>
+              Help: <NavLink to="/">help.OddsHaven.GG</NavLink>
             </h4>
           </div>
 
@@ -141,7 +141,7 @@ export default function History() {
             <h4>1BTC=$24,388.77</h4>
 
             <div className="mobile-footer-last-row2">
-              <h4>©2022 BETARENA.GG ALL RIGHTS RESERVED</h4>
+              <h4>©2022 OddsHaven.GG ALL RIGHTS RESERVED</h4>
               <div className="mobile-footer-top">
                 <div className="footer-top">
                   <div className="footer-top-arrow">

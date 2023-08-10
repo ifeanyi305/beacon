@@ -104,7 +104,7 @@ export default function Vip() {
               <img src={forum1} alt="forum1" />
               <h2>Unique VIP Transfer Program</h2>
               <h4>
-                BETARENA.GG respects and welcomes every distinguished VIP and
+                OddsHaven.GG respects and welcomes every distinguished VIP and
                 will give you an exclusive VIP status that you can continue your
                 honor here. Contact us for details.
               </h4>
@@ -113,7 +113,7 @@ export default function Vip() {
               <img src={forum2} alt="forum2" />
               <h2>Unique VIP Transfer Program</h2>
               <h4>
-                BETARENA.GG respects and welcomes every distinguished VIP and
+                OddsHaven.GG respects and welcomes every distinguished VIP and
                 will give you an exclusive VIP status that you can continue your
                 honor here. Contact us for details.
               </h4>
@@ -122,7 +122,7 @@ export default function Vip() {
               <img src={forum3} alt="forum3" />
               <h2>Unique VIP Transfer Program</h2>
               <h4>
-                BETARENA.GG respects and welcomes every distinguished VIP and
+                OddsHaven.GG respects and welcomes every distinguished VIP and
                 will give you an exclusive VIP status that you can continue your
                 honor here. Contact us for details.
               </h4>
