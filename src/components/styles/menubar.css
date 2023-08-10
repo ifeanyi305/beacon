@@ -1,0 +1,730 @@
+.MenuBar-tab {
+  background: rgba(0, 0, 0, 0.46);
+  position: fixed;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 65px;
+  overflow-y: scroll;
+}
+.live_support_head {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.MenuBar {
+  background: rgba(0, 0, 0, 0.46);
+  position: fixed;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 240px;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.MenuBar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.MenuBar-tab::-webkit-scrollbar {
+  display: none;
+}
+
+.MenuBar-header {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+.MenuBar-container .MenuBar-header img {
+  width: 20px;
+}
+
+.MenuBar-header .casino {
+  display: flex;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 6px 20px;
+  background: #353341;
+  border-radius: 30px;
+  gap: 3px;
+  margin: 2px 0px;
+  cursor: pointer;
+  color: rgba(135, 135, 135, 1);
+}
+
+.MenuBar-header .sport {
+  display: flex;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 6px 20px;
+  border-radius: 30px;
+  gap: 3px;
+  margin: 1px 0px;
+  cursor: pointer;
+  color: rgba(135, 135, 135, 1);
+}
+
+.MenuBar-header .casino .casino-text {
+  margin: 2px 0px;
+}
+.MenuBar-header .casino .casino-text a {
+  text-decoration: none;
+  color: rgba(135, 135, 135, 1);
+  font-size: 14px;
+}
+.MenuBar-header .sport .sport-img {
+  position: relative;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.MenuBar-header .sport .sport-text {
+  position: relative;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.MenuBar-header .sport .sport-img span {
+  position: absolute;
+  background: #ad8605;
+  border-radius: 28.3216px;
+  padding: 3px;
+  font-style: italic;
+  font-size: 7.8px;
+  top: -10px;
+  right: -10px;
+  color: white;
+}
+.MenuBar-header .casino .casino-text a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.MenuBar-header .sport .sport-text h3:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.MenuBar-contents {
+  margin-top: 20px;
+}
+
+.MenuBar-contents a .game-icon img {
+  width: 40.5px;
+}
+.MenuBar-contents a .game-text h3 {
+  font-size: 13.3px;
+  margin-left: 4px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.MenuBar-contents a .promotion h3 {
+  font-size: 16.3px;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgba(173, 134, 5, 1);
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.MenuBar-contents a {
+  display: flex;
+  text-decoration: none;
+  color: #878787;
+  width: fit-content;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+}
+.MenuBar-contents a .nav-details {
+  display: flex;
+  color: #878787;
+  width: fit-content;
+  padding: 0px 10px;
+  margin-bottom: -5px;
+}
+
+.MenuBar-contents a.active .nav-details {
+  background: linear-gradient(
+    277.97deg,
+    #624de2 0.08%,
+    rgba(248, 185, 24, 0) 101.63%
+  );
+  border-radius: 0px 30px 30px 0px;
+  color: white;
+  padding: -10px 20px;
+}
+
+.MenuBar-contents a:hover .game-text h3 {
+  color: white;
+}
+
+.MenuBar-contents .ba-original {
+  display: flex;
+  color: #fff;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+}
+
+.MenuBar-contents .ba-original:hover .game-arrow img {
+  transform: rotate(90deg);
+  animation: rotation 0.2s ease-in;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+.MenuBar-contents .ba-original h3 {
+  font-size: 13.3px;
+  margin-left: 4px;
+  margin-right: 20px;
+  margin-top: 1px;
+  margin-top: 10px;
+}
+
+.MenuBar-contents .ba-original img {
+  width: 40.5px;
+  margin-left: 3px;
+}
+
+.MenuBar-contents .ba-original .game-arrow img {
+  width: 8.5px;
+  margin-left: 3px;
+  margin-top: 14.5px;
+  margin-left: 40px;
+}
+.middle-contents .middle {
+  display: flex;
+}
+
+.MenuBar-contents a .middle-belt img {
+  width: 43.5px;
+}
+
+.MenuBar-contents a .middle-belt .holder img {
+  width: 43.5px;
+}
+.MenuBar-contents a .middle-belt .coin img {
+  width: 42.5px;
+  top: 5px;
+  position: absolute;
+}
+
+.MenuBar-contents a .middle-belt {
+  background: #080914;
+  border-radius: 17.8586px;
+  padding: 7px;
+  position: relative;
+}
+
+.MenuBar-contents a .middle-belt .dollar img {
+  height: 36px;
+}
+
+.MenuBar-contents a .middle-belt .pointer img {
+  z-index: 2087;
+  position: absolute;
+  top: 8px;
+}
+
+.MenuBar-contents a .middle-belt .key img {
+  z-index: 2087;
+  width: 10px;
+  position: absolute;
+  top: 5px;
+  background: #353341;
+  right: 5px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.MenuBar-contents .middle-belt .rotate img {
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+hr {
+  border: 1px solid #b8b9c828;
+}
+
+.MenuBar-contents .language-currency {
+  color: #353341;
+  padding: 10px;
+}
+
+.MenuBar-contents .language-currency .contents p {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.MenuBar-contents .language-currency .contents .input {
+  background: #1a1922;
+  display: flex;
+  padding: 5px;
+  margin: 5px 30px;
+  border-radius: 30px;
+}
+.MenuBar-contents .language-currency .contents .input img {
+  width: 7px;
+}
+.MenuBar-contents .language-currency .contents .input input {
+  background: none;
+  width: 80%;
+  outline: none;
+  border: none;
+}
+
+.MenuBar-contents .language-currency .contents .input input::placeholder {
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.MenuBar-contents .switch-mode {
+  display: flex;
+  margin: 15px 30px;
+  gap: 20px;
+}
+
+.MenuBar-contents .switch-mode .switch {
+  cursor: pointer;
+}
+
+.MenuBar-contents .switch-mode .switch-contents {
+  position: relative;
+  background: #1a1922;
+  height: 27px;
+  display: flex;
+  width: 60px;
+  border-radius: 30px;
+}
+.MenuBar-contents .switch-mode .switch-contents img {
+  width: 15px;
+}
+
+.MenuBar-contents .switch-mode .switch-contents .moon img {
+  position: absolute;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(
+    270deg,
+    rgba(82, 200, 52, 0.2025) -41.58%,
+    rgba(173, 134, 5, 0.75) 100%
+  );
+}
+
+.MenuBar-contents .switch-mode .switch-contents .setting img {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.MenuBar-contents .switch-mode .mode {
+  font-size: 8px;
+  margin-left: 10px;
+  text-align: center;
+}
+.MenuBar-contents .switch-mode .mode h3 {
+  font-size: 10px;
+  color: white;
+}
+.socials {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.socials .social-contents {
+  display: flex;
+  gap: 15px;
+  padding: 10px 3px;
+}
+.socials .social-contents img {
+  width: 18px;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1210px) {
+  .MenuBar {
+    background: rgba(0, 0, 0, 0.46);
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 65px;
+    overflow-y: scroll;
+  }
+
+  .normal-MenuBar {
+    display: none;
+  }
+}
+
+/* Hide mobile view from other screens */
+@media only screen and (min-width: 650px) {
+  .MenuBar-mobile {
+    display: none;
+  }
+}
+
+/* Tablet ============================== */
+
+.tablet-MenuBar {
+  padding: 5px;
+  margin: 5px;
+}
+
+.tablet-MenuBar .casino-img {
+  margin: 2px;
+  margin-bottom: 20px;
+}
+
+.tablet-MenuBar .casino-img img {
+  width: 20px;
+  background: #353341;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.tablet-MenuBar a .game-icon-tab img {
+  width: 42px;
+}
+
+.tablet-MenuBar a.active .game-icon-tab img {
+  background: linear-gradient(
+    277.97deg,
+    #624de2 0.08%,
+    rgba(248, 185, 24, 0) 101.63%
+  );
+  border-radius: 50%;
+}
+
+.tablet-MenuBar .ba-original {
+  display: flex;
+}
+
+.tablet-MenuBar .ba-original .game-icon img {
+  width: 42px;
+}
+
+.tablet-MenuBar .ba-original .game-arrow img {
+  width: 9px;
+}
+.tablet-MenuBar .ba-original .game-arrow {
+  margin-top: 12px;
+}
+
+.tablet-MenuBar .ba-original:hover .game-arrow img {
+  transform: rotate(90deg);
+  animation: rotation 0.2s ease-in;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+.tablet-MenuBar .middle-belt .rotate img {
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tablet-MenuBar a .middle-belt {
+  background: #080914;
+  border-radius: 17.8586px;
+  position: relative;
+}
+
+.tablet-MenuBar a .middle-belt img {
+  width: 43.5px;
+}
+
+.tablet-MenuBar a .middle-belt .pointer img {
+  z-index: 2087;
+  position: absolute;
+  top: 1px;
+}
+
+.tablet-MenuBar .language-currency {
+  color: #353341;
+  padding: 10px;
+}
+
+.tablet-MenuBar .language-currency .contents .input {
+  background: #1a1922;
+  display: flex;
+  border-radius: 30px;
+  font-size: 8px;
+  padding: 6px;
+  color: #807c93;
+  font-weight: 900;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 650px) {
+  .MenuBar-mobile {
+    background: rgb(2, 2, 9);
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 24;
+    padding: 0;
+    margin: 0;
+  }
+
+  .MenuBar-mobile-header {
+    box-shadow: 0px 11.1333px 37.1111px rgba(53, 51, 65, 0.46);
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .MenuBar-mobile-header .casino a {
+    text-decoration: none;
+    background: #353341;
+    padding: 8px 50px;
+    border-radius: 30px;
+    color: rgb(230, 227, 227);
+    font-size: 14px;
+  }
+
+  .MenuBar-mobile-header .casino {
+    width: 45%;
+    padding-top: 15px;
+  }
+  .MenuBar-mobile-header .sport {
+    width: 45%;
+    padding-top: 10px;
+  }
+
+  .MenuBar-mobile-header .sport h3 {
+    padding: 7px 30px;
+    color: #444250;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .MenuBar-mobile-header .cancel {
+    margin: 15px 0px;
+  }
+  .MenuBar-mobile-header .cancel span {
+    padding: 4.5px 9px;
+    color: #353341;
+    font-size: 16px;
+    margin: 12px 0px;
+    font-weight: bolder;
+    background: #1a1922;
+    border-radius: 50%;
+  }
+  .MenuBar-mobile-container {
+    padding: 10px;
+    color: #807c93;
+  }
+  .MenuBar-mobile-content a {
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .MenuBar-mobile-content a .nav-details {
+    display: flex;
+  }
+  .MenuBar-mobile-content a .nav-details .game-icon img {
+    width: 40px;
+  }
+  .MenuBar-mobile-content a .nav-details .game-text {
+    padding: 8px 0px;
+    color: #807c93;
+  }
+  .MenuBar-mobile-container .MenuBar-mobile-content .ba-original {
+    display: flex;
+    position: relative;
+  }
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .ba-original
+    .game-icon
+    img {
+    width: 40px;
+  }
+  .MenuBar-mobile-container .MenuBar-mobile-content .ba-original .game-text {
+    font-size: 13px;
+    padding-top: 8px;
+  }
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .ba-original
+    .game-arrow
+    img {
+    width: 6px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+  }
+  .MenuBar-mobile-container .MenuBar-mobile-content a .promotion h3 {
+    font-size: 16.3px;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgba(173, 134, 5, 1);
+    margin-top: 8px;
+  }
+
+  .MenuBar-mobile-container .MenuBar-mobile-content .switch-mode {
+    display: flex;
+    margin: 15px 9px;
+    gap: 20px;
+  }
+
+  .MenuBar-mobile-container .MenuBar-mobile-content .switch-mode .switch {
+    cursor: pointer;
+  }
+
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .switch-mode
+    .switch-contents {
+    position: relative;
+    background: #1a1922;
+    height: 27px;
+    display: flex;
+    width: 60px;
+    border-radius: 30px;
+  }
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .switch-mode
+    .switch-contents
+    img {
+    width: 15px;
+  }
+
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .switch-mode
+    .switch-contents
+    .moon
+    img {
+    position: absolute;
+    padding: 5px;
+    border-radius: 50%;
+    background: linear-gradient(
+      270deg,
+      rgba(82, 200, 52, 0.2025) -41.58%,
+      rgba(173, 134, 5, 0.75) 100%
+    );
+  }
+
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .switch-mode
+    .switch-contents
+    .setting
+    img {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+
+  .MenuBar-mobile-container .MenuBar-mobile-content .switch-mode .mode {
+    font-size: 8px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .MenuBar-mobile-container .MenuBar-mobile-content .switch-mode .mode h3 {
+    font-size: 10px;
+    color: white;
+  }
+
+  .MenuBar-mobile-container .MenuBar-mobile-content .language-currency {
+    color: #353341;
+    padding: 10px;
+  }
+
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .language-currency
+    .contents {
+    margin: 17px 0px;
+  }
+
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .language-currency
+    .contents
+    p {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .language-currency
+    .contents
+    .input {
+    background: #1a1922;
+    display: flex;
+    padding: 8px;
+    margin: 5px 30px;
+    border-radius: 30px;
+  }
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .language-currency
+    .contents
+    .input
+    img {
+    width: 7px;
+  }
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .language-currency
+    .contents
+    .input
+    input {
+    background: none;
+    width: 96%;
+    outline: none;
+    border: none;
+  }
+
+  .MenuBar-mobile-container
+    .MenuBar-mobile-content
+    .language-currency
+    .contents
+    .input
+    input::placeholder {
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
