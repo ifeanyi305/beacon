@@ -67,7 +67,6 @@ export default function Signup() {
                 autoComplete="off"
                 onChange={(e) => setPromo(e.target.value)}
                 placeholder="Referral/Promo Code"
-                required
               ></input>
             </div>
             <div className="signUp-check">
