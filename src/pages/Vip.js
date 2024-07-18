@@ -22,7 +22,7 @@ export default function Vip() {
           <h3>
             As a way of showing our gratitude and appreciation to our VIP
             players, BC.GAME invites you to join our VIP Club where there is an
-            abundance of gifts, giveaways, higher cash back and unique features.
+            abundance of gifts, giveaways, and higher cash back and unique features.
             Don't miss out on all the exciting and amazing fun!
           </h3>
         </div>
